@@ -1,0 +1,248 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+   
+    width: auto;
+}
+
+header {
+    
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  background-image: url(safeer.jpg);
+  margin: 0 auto;
+  display:block;
+  background: size 48px 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+}
+
+header h1 {
+    margin: 0;
+     
+}
+
+nav ul {
+    padding: 0;
+    list-style:none;
+   
+    width: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 2em;
+    margin: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+#about .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+    width: 30%; /* Adjust as needed for different screen sizes */
+    margin-bottom: 1.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    box-sizing: border-box; /* Important for padding within width */
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    margin-top: 0.5em;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.75em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#form-message {
+    margin-top: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 0.5em 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    #about .profile-image {
+        float: none;
+        display: block;
+        margin: 0 auto 1em;
+    }
+
+    .project {
+      width: 45%; /* Two projects per row on smaller screens */
+    }
+
+    #projects {
+      flex-direction: row;
+      align-items: stretch;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .project {
+      width: 90%;  /* One project per row on very small screens */
+    }
+}
+header h1{
+    color:#f4f4f4;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#safeer{
+    text-align: center;
+    border: 10px;
+   
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:red;
+   
+    background-image: linear-gradient(to bottom,yellow,red,);
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: blueviolet;
+  
+  text-decoration: underline;
+}
+#afeef{
+    text-align: center;
+    border: 5px;
+   ;
+color:blue;
+text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+body{
+    background-color: brown;
+    background-image: linear-gradient(rgb(218, 156, 156),yellow,blue,green,pink,blue);
+}
+#messi{
+    text-align: center;
+    
+    text-transform:uppercase
+     ;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    
+}
+#neymar{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 100;
+    font-style: italic;
+    color:blue;
+}
+#ronaldo{
+    text-align: center;
+    text-decoration: underline;
+    text-transform:uppercase;
+    color:red;
+
+}
+#vini{
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+ul{
+    text-transform: capitalize;
+    color:orange;
+    text-decoration: solid;
+
+}
